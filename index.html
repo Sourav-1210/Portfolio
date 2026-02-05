@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -23,14 +25,73 @@
             <li><a href="Sourav Sharma General CV.pdf" class="resume-btn" target="_blank">Resume</a></li>
         </ul>
     </nav>
-    <section class="container" id="home">
-        <h1>Sourav Sharma</h1>
-        <h3>Full Stack Web Developer</h3>
-        <p>
-            I am a passionate Full Stack Web Developer with a strong foundation in frontend
-            and backend technologies. I enjoy building responsive web applications and
-            solving real-world problems using clean and efficient code.
-        </p>
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Sourav Sharma</h1>
+                <h3 class="hero-tagline">Full Stack Web Developer</h3>
+                <p class="hero-description">
+                    Passionate about building responsive web applications and solving real-world problems
+                    with clean, efficient code. Turning ideas into elegant digital solutions.
+                </p>
+            </div>
+
+            <!-- Skills Icons -->
+            <div class="skills-icons">
+                <div class="skill-icon" title="HTML5">
+                    <i class="devicon-html5-plain colored"></i>
+                </div>
+                <div class="skill-icon" title="CSS3">
+                    <i class="devicon-css3-plain colored"></i>
+                </div>
+                <div class="skill-icon" title="JavaScript">
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="skill-icon" title="React">
+                    <i class="devicon-react-original colored"></i>
+                </div>
+                <div class="skill-icon" title="Tailwind CSS">
+                    <i class="devicon-tailwindcss-plain colored"></i>
+                </div>
+                <div class="skill-icon" title="Node.js">
+                    <i class="devicon-nodejs-plain colored"></i>
+                </div>
+                <div class="skill-icon" title="MongoDB">
+                    <i class="devicon-mongodb-plain colored"></i>
+                </div>
+                <div class="skill-icon" title="Java">
+                    <i class="devicon-java-plain colored"></i>
+                </div>
+                <div class="skill-icon" title="C++">
+                    <i class="devicon-cplusplus-plain colored"></i>
+                </div>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sourav1210/" target="_blank" class="social-icon" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Sourav-1210" target="_blank" class="social-icon" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://twitter.com/sourav1210" target="_blank" class="social-icon" title="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://instagram.com/sourav1210" target="_blank" class="social-icon" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Profile Picture -->
+        <div class="hero-image">
+            <div class="profile-pic-container">
+                <img src="profile.jpg" alt="Sourav Sharma - Full Stack Developer" class="profile-pic">
+                <div class="profile-glow"></div>
+            </div>
+        </div>
     </section>
     <section class="container" id="about">
         <h2>About Me</h2>
@@ -113,12 +174,16 @@
     </section>
     <section class="container contact" id="contact">
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:souravsharma9142@gmail.com">souravsharma9142@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/Sourav-1210" target="_blank">github.com/Sourav-1210</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/sourav1210/" target="_blank">linkedin.com/in/sourav1210</a>
+        <p><i class="fas fa-envelope"></i> Email: <a
+                href="mailto:souravsharma9142@gmail.com">souravsharma9142@gmail.com</a></p>
+        <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/Sourav-1210"
+                target="_blank">github.com/Sourav-1210</a></p>
+        <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/sourav1210/"
+                target="_blank">linkedin.com/in/sourav1210</a>
         </p>
     </section>
 
+    <script src="hero.js"></script>
 </body>
 
 </html>
