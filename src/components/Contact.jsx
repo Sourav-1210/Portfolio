@@ -5,8 +5,8 @@ const contactInfo = [
   {
     icon: FiMail,
     label: 'Email',
-    value: 'sharmasourav12104@gmail.com',
-    href: 'mailto:sharmasourav12104@gmail.com',
+    value: 'souravsharma9142@gmail.com',
+    href: 'mailto:souravsharma9142@gmail.com',
   },
   {
     icon: FiGithub,
@@ -18,7 +18,7 @@ const contactInfo = [
     icon: FiLinkedin,
     label: 'LinkedIn',
     value: 'linkedin.com/in/sourav-sharma',
-    href: 'https://linkedin.com/in/sourav-sharma-124500284',
+    href: 'https://www.linkedin.com/in/sourav1210/',
   },
 ]
 
