@@ -18,7 +18,7 @@ const certifications = [
     year: 'Oct 2025',
     description: 'Demonstrates proficiency in JavaScript syntax, basic algorithms, and coding concepts.',
     icon: FiAward,
-    link: '#',
+    link: 'https://www.hackerrank.com/certificates/eae4528a12ef',
     image: '/Screenshot 2026-03-14 230300.png',
     color: 'text-yellow-500',
     bgColor: 'bg-yellow-50 dark:bg-yellow-900/20'
@@ -40,7 +40,7 @@ const certifications = [
     year: 'July 2025',
     description: 'Skill development course to learn, apply, and build projects using foundational data structures.',
     icon: FiAward,
-    link: '#',
+    link: 'https://drive.google.com/file/d/1xQowZ7jIO5Sfu3OdX3ocaTdwe__eF45h/view?usp=sharing',
     image: '/Screenshot 2026-03-14 230400.png',
     color: 'text-orange-500',
     bgColor: 'bg-orange-50 dark:bg-orange-900/20'

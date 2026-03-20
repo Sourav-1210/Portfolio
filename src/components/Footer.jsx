@@ -34,8 +34,8 @@ export default function Footer() {
           <div className="flex items-center gap-4">
             {[
               { icon: FiGithub, href: 'https://github.com/Sourav-1210', label: 'GitHub' },
-              { icon: FiLinkedin, href: 'https://linkedin.com/in/sourav-sharma-124500284', label: 'LinkedIn' },
-              { icon: FiMail, href: 'mailto:sharmasourav12104@gmail.com', label: 'Email' },
+              { icon: FiLinkedin, href: 'https://www.linkedin.com/in/sourav1210/', label: 'LinkedIn' },
+              { icon: FiMail, href: 'mailto:souravsharma9142@gmail.com', label: 'Email' },
             ].map(({ icon: Icon, href, label }) => (
               <a
                 key={label}

@@ -34,7 +34,7 @@ export default function About() {
               {[
                 { label: 'Degree', value: 'B.Tech in CS' },
                 { label: 'University', value: 'LPU' },
-                { label: 'CGPA', value: '8.67 / 10' },
+                { label: 'CGPA', value: '8.57 / 10' },
                 { label: 'Focus', value: 'Frontend Dev' },
               ].map(({ label, value }) => (
                 <div key={label} className="card p-4">
@@ -51,7 +51,7 @@ export default function About() {
           <div className="grid grid-cols-2 gap-4">
             {[
               { num: '5+', label: 'Projects Built' },
-              { num: '8.67', label: 'CGPA' },
+              { num: '8.57', label: 'CGPA' },
               { num: '10+', label: 'Technologies' },
               { num: '2+', label: 'Years of Coding' },
             ].map(({ num, label }) => (
