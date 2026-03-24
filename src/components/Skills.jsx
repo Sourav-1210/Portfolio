@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import {
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaLinux,
-  FaDatabase
+  FaDatabase, FaComments, FaUsers, FaLightbulb, FaBrain
 } from 'react-icons/fa'
 import { SiTailwindcss, SiExpress, SiMongodb, SiMysql, SiVsco } from 'react-icons/si'
 
@@ -23,9 +23,14 @@ const allSkills = [
   { name: 'GitHub', icon: FaGithub, color: 'text-gray-700 dark:text-gray-300', category: 'Tools' },
   { name: 'VS Code', icon: SiVsco, color: 'text-blue-500', category: 'Tools' },
   { name: 'Linux', icon: FaLinux, color: 'text-yellow-400', category: 'Tools' },
+  // Soft Skills
+  { name: 'Communication', icon: FaComments, color: 'text-blue-400', category: 'Soft Skills' },
+  { name: 'Teamwork', icon: FaUsers, color: 'text-green-500', category: 'Soft Skills' },
+  { name: 'Problem Solving', icon: FaLightbulb, color: 'text-yellow-500', category: 'Soft Skills' },
+  { name: 'Adaptability', icon: FaBrain, color: 'text-purple-400', category: 'Soft Skills' },
 ]
 
-const categories = ['All', 'Frontend', 'Backend', 'Database', 'Tools']
+const categories = ['All', 'Frontend', 'Backend', 'Database', 'Tools', 'Soft Skills']
 
 export default function Skills() {
   const [activeCategory, setActiveCategory] = useState('All')
